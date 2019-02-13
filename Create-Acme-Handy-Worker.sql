@@ -1,5 +1,5 @@
-
-USE `b6aunhfpisossiiivxqr`;
+CREATE DATABASE  IF NOT EXISTS `acme-handy-worker` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `acme-handy-worker`;
 -- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
 --
 -- Host: localhost    Database: acme-handy-worker
@@ -82,7 +82,7 @@ CREATE TABLE `admin` (
 
 LOCK TABLES `admin` WRITE;
 /*!40000 ALTER TABLE `admin` DISABLE KEYS */;
-INSERT INTO `admin` VALUES (1741,0,'Calle de admins, 1, 3¬∫D','admin1@gmail.com','\0','','Samuel','+34 688888888','http:\\\\www.photo.com/test9','Lorenzo',1730),(1742,0,'Calle de admins, 1, 3¬∫D','admin2@gmail.com','\0','','Samuela','+34 610101010','http:\\\\www.photo.com/test10','Lorenzo',1731);
+INSERT INTO `admin` VALUES (1390,0,'Calle de admins, 1, 3¬∫D','admin1@gmail.com','\0','','Samuel','+34 688888888','http:\\\\www.photo.com/test9','Lorenzo',1379),(1391,0,'Calle de admins, 1, 3¬∫D','admin2@gmail.com','\0','','Samuela','+34 610101010','http:\\\\www.photo.com/test10','Lorenzo',1380);
 /*!40000 ALTER TABLE `admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -110,7 +110,7 @@ CREATE TABLE `category` (
 
 LOCK TABLES `category` WRITE;
 /*!40000 ALTER TABLE `category` DISABLE KEYS */;
-INSERT INTO `category` VALUES (1804,0,'CATEGORY',NULL),(1805,0,'VEHICULOS',1804),(1806,0,'BICICLETAS',1805),(1807,0,'Carpentry',1804),(1808,0,'Cleaning',1804),(1809,0,'Concrete work',1804),(1810,0,'Doors',1807),(1811,0,'Electrical wiring',1804),(1812,0,'Fan installation',1811),(1813,0,'Fence installation',1807),(1814,0,'Fence fixing',1807),(1815,0,'Home security system',1811),(1816,0,'Insulation installation',1804),(1817,0,'Solar panels',1807),(1818,0,'Soundproofing',1804),(1819,0,'Sprinkler repair',1804),(1820,0,'Windows repair',1804);
+INSERT INTO `category` VALUES (1453,0,'CATEGORY',NULL),(1454,0,'VEHICULOS',1453),(1455,0,'BICICLETAS',1454),(1456,0,'Carpentry',1453),(1457,0,'Cleaning',1453),(1458,0,'Concrete work',1453),(1459,0,'Doors',1456),(1460,0,'Electrical wiring',1453),(1461,0,'Fan installation',1460),(1462,0,'Fence installation',1456),(1463,0,'Fence fixing',1456),(1464,0,'Home security system',1460),(1465,0,'Insulation installation',1453),(1466,0,'Solar panels',1456),(1467,0,'Soundproofing',1453),(1468,0,'Sprinkler repair',1453),(1469,0,'Windows repair',1453);
 /*!40000 ALTER TABLE `category` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -196,7 +196,7 @@ CREATE TABLE `credit_card` (
 
 LOCK TABLES `credit_card` WRITE;
 /*!40000 ALTER TABLE `credit_card` DISABLE KEYS */;
-INSERT INTO `credit_card` VALUES (1802,0,456,10,22,'Antonio Gonz√°lez','4165282637872893',1798,1733),(1803,0,333,4,20,'Paco Pepe Lopez','4163332637833393',1799,1741);
+INSERT INTO `credit_card` VALUES (1451,0,456,10,22,'Antonio Gonz√°lez','4165282637872893',1447,1382),(1452,0,333,4,20,'Paco Pepe Lopez','4163332637833393',1448,1390);
 /*!40000 ALTER TABLE `credit_card` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -221,7 +221,7 @@ CREATE TABLE `credit_card_make` (
 
 LOCK TABLES `credit_card_make` WRITE;
 /*!40000 ALTER TABLE `credit_card_make` DISABLE KEYS */;
-INSERT INTO `credit_card_make` VALUES (1798,0,'VISA'),(1799,0,'MASTER'),(1800,0,'DINNERS'),(1801,0,'AMEX');
+INSERT INTO `credit_card_make` VALUES (1447,0,'VISA'),(1448,0,'MASTER'),(1449,0,'DINNERS'),(1450,0,'AMEX');
 /*!40000 ALTER TABLE `credit_card_make` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -256,7 +256,7 @@ CREATE TABLE `curriculum` (
 
 LOCK TABLES `curriculum` WRITE;
 /*!40000 ALTER TABLE `curriculum` DISABLE KEYS */;
-INSERT INTO `curriculum` VALUES (1790,0,'worker1@gmail.com','Luis Ram√≥n Guti√©rrez','+34 633333333','http:\\\\www.photo.com/test3','021097-ABCDEF',1735,1788);
+INSERT INTO `curriculum` VALUES (1439,0,'worker1@gmail.com','Luis Ram√≥n Guti√©rrez','+34 633333333','http:\\\\www.photo.com/test3','021097-ABCDEF',1384,1437);
 /*!40000 ALTER TABLE `curriculum` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -317,7 +317,7 @@ CREATE TABLE `customer` (
 
 LOCK TABLES `customer` WRITE;
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES (1733,0,'Calle de customers, 1, 3¬∫D','customer1@gmail.com','\0','Pablo','Juan','+34 611111111','http:\\\\www.photo.com/test','Garc√≠a',1722,1.3),(1734,0,'Calle de customers, 2, 3¬∫D','customer2@gmail.com','\0','','Juana','+34 622222222','http:\\\\www.photo.com/test2','Dominguez',1723,1);
+INSERT INTO `customer` VALUES (1382,0,'Calle de customers, 1, 3¬∫D','customer1@gmail.com','\0','Pablo','Juan','+34 611111111','http:\\\\www.photo.com/test','Garc√≠a',1371,1.3),(1383,0,'Calle de customers, 2, 3¬∫D','customer2@gmail.com','\0','','Juana','+34 622222222','http:\\\\www.photo.com/test2','Dominguez',1372,1);
 /*!40000 ALTER TABLE `customer` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -372,7 +372,7 @@ CREATE TABLE `endorsement` (
 
 LOCK TABLES `endorsement` WRITE;
 /*!40000 ALTER TABLE `endorsement` DISABLE KEYS */;
-INSERT INTO `endorsement` VALUES (1829,0,'2018-03-08 20:32:00',1733,1735),(1830,0,'2018-03-08 20:32:00',1734,1735),(1831,0,'2018-03-08 20:32:00',1735,1733);
+INSERT INTO `endorsement` VALUES (1478,0,'2018-03-08 20:32:00',1382,1384),(1479,0,'2018-03-08 20:32:00',1383,1384),(1480,0,'2018-03-08 20:32:00',1384,1382);
 /*!40000 ALTER TABLE `endorsement` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -397,7 +397,7 @@ CREATE TABLE `endorsement_comments` (
 
 LOCK TABLES `endorsement_comments` WRITE;
 /*!40000 ALTER TABLE `endorsement_comments` DISABLE KEYS */;
-INSERT INTO `endorsement_comments` VALUES (1829,'good'),(1830,'ok'),(1831,'bad');
+INSERT INTO `endorsement_comments` VALUES (1478,'good'),(1479,'ok'),(1480,'bad');
 /*!40000 ALTER TABLE `endorsement_comments` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -461,7 +461,7 @@ CREATE TABLE `finder` (
 
 LOCK TABLES `finder` WRITE;
 /*!40000 ALTER TABLE `finder` DISABLE KEYS */;
-INSERT INTO `finder` VALUES (1791,0,NULL,'2018-11-11 00:00:00','bici','2018-12-12 00:00:00',NULL,NULL,20,NULL,1735);
+INSERT INTO `finder` VALUES (1440,20,'','2019-02-13 05:55:42','',NULL,NULL,NULL,NULL,'',1384);
 /*!40000 ALTER TABLE `finder` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -488,6 +488,7 @@ CREATE TABLE `finder_fix_up_tasks` (
 
 LOCK TABLES `finder_fix_up_tasks` WRITE;
 /*!40000 ALTER TABLE `finder_fix_up_tasks` DISABLE KEYS */;
+INSERT INTO `finder_fix_up_tasks` VALUES (1440,1483),(1440,1484),(1440,1485);
 /*!40000 ALTER TABLE `finder_fix_up_tasks` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -521,7 +522,7 @@ CREATE TABLE `fixup_application` (
 
 LOCK TABLES `fixup_application` WRITE;
 /*!40000 ALTER TABLE `fixup_application` DISABLE KEYS */;
-INSERT INTO `fixup_application` VALUES (1837,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2018-03-10 20:32:00','ACCEPTED',1735,1835),(1838,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it for lessx',500,'2017-10-11 20:32:00','ACCEPTED',1736,1836),(1839,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2017-08-11 20:32:00','ACCEPTED',1735,1836),(1840,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2018-03-11 20:32:00','ACCEPTED',1736,1836),(1841,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2018-03-11 20:32:00','ACCEPTED',1736,1835),(1842,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2017-01-11 20:32:00','ACCEPTED',1736,1835),(1843,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0no likex',100,'2018-03-08 20:32:00','ACCEPTED',1735,1836),(1844,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0no likex',100,'2018-03-08 20:32:00','ACCEPTED',1735,1834);
+INSERT INTO `fixup_application` VALUES (1486,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2018-03-10 20:32:00','REJECTED',1384,1484),(1487,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it for lessx',500,'2017-10-11 20:32:00','ACCEPTED',1385,1485),(1488,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2017-08-11 20:32:00','REJECTED',1384,1485),(1489,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2018-03-11 20:32:00','REJECTED',1385,1485),(1490,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2018-03-11 20:32:00','ACCEPTED',1385,1484),(1491,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0do it fasterx',100,'2017-01-11 20:32:00','REJECTED',1385,1484),(1492,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0no likex',100,'2018-03-08 20:32:00','REJECTED',1384,1485),(1493,0,'¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0no likex',100,'2018-03-08 20:32:00','REJECTED',1384,1483);
 /*!40000 ALTER TABLE `fixup_application` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -565,7 +566,7 @@ CREATE TABLE `fixup_task` (
 
 LOCK TABLES `fixup_task` WRITE;
 /*!40000 ALTER TABLE `fixup_task` DISABLE KEYS */;
-INSERT INTO `fixup_task` VALUES (1834,0,'Calle de customers, 1, 3¬∫D','A mi bici no le funcionan los frenos.','2018-10-20 00:00:00','',40.5,'2018-10-10 00:00:00','2018-10-10 00:00:00','20181010-ABZZEF',1733,1806,1802,1821),(1835,0,'Calle de customers, 1, 3¬∫D','A mi bici no le funcionan los frenos.','2018-10-20 00:00:00','\0',40.5,'2018-10-10 00:00:00','2018-10-10 00:00:00','20181010-ABCDEF',1733,1806,1802,1821),(1836,0,'Calle de customers, 7','El techo esta roto','2018-10-20 00:00:00','',40.5,'2018-10-10 00:00:00','2018-10-10 00:00:00','20181010-ABCDGF',1734,1806,1802,1821);
+INSERT INTO `fixup_task` VALUES (1483,0,'Calle de customers, 1, 3¬∫D','A mi bici no le funcionan los frenos.','2018-10-20 00:00:00','',40.5,'2018-10-10 00:00:00','2018-10-10 00:00:00','20181010-ABZZEF',1382,1455,1451,1470),(1484,0,'Calle de customers, 1, 3¬∫D','A mi bici no le funcionan los frenos.','2018-10-20 00:00:00','\0',40.5,'2018-10-10 00:00:00','2018-10-10 00:00:00','20181010-ABCDEF',1382,1455,1451,1470),(1485,0,'Calle de customers, 7','El techo esta roto','2018-10-20 00:00:00','',40.5,'2018-10-10 00:00:00','2018-10-10 00:00:00','20181010-ABCDGF',1383,1455,1451,1470);
 /*!40000 ALTER TABLE `fixup_task` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -602,7 +603,7 @@ CREATE TABLE `handy_worker` (
 
 LOCK TABLES `handy_worker` WRITE;
 /*!40000 ALTER TABLE `handy_worker` DISABLE KEYS */;
-INSERT INTO `handy_worker` VALUES (1735,0,'Calle de workers, 1, 3¬∫D','worker1@gmail.com','\0','Ram√≥n','Luis','+34 633333333','http:\\\\www.photo.com/test3','Gutierrez',1724,'LuisRam√≥n',1),(1736,0,'Calle de workers, 2, 3¬∫D','worker2@gmail.com','\0','','Luisa','+34 644444444','http:\\\\www.photo.com/test4','San Jos√©',1725,'Luisa',1);
+INSERT INTO `handy_worker` VALUES (1384,0,'Calle de workers, 1, 3¬∫D','worker1@gmail.com','\0','Ram√≥n','Luis','+34 633333333','http:\\\\www.photo.com/test3','Gutierrez',1373,'LuisRam√≥n',1),(1385,0,'Calle de workers, 2, 3¬∫D','worker2@gmail.com','\0','','Luisa','+34 644444444','http:\\\\www.photo.com/test4','San Jos√©',1374,'Luisa',1);
 /*!40000 ALTER TABLE `handy_worker` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -651,7 +652,7 @@ CREATE TABLE `law` (
 
 LOCK TABLES `law` WRITE;
 /*!40000 ALTER TABLE `law` DISABLE KEYS */;
-INSERT INTO `law` VALUES (1824,0,'relevant text 1','Law 1'),(1825,0,'relevant text 1','Law 2'),(1826,0,'relevant text 1','Law 3'),(1827,0,'relevant text 1','Law 4'),(1828,0,'relevant text 1','Law 5');
+INSERT INTO `law` VALUES (1473,0,'relevant text 1','Law 1'),(1474,0,'relevant text 1','Law 2'),(1475,0,'relevant text 1','Law 3'),(1476,0,'relevant text 1','Law 4'),(1477,0,'relevant text 1','Law 5');
 /*!40000 ALTER TABLE `law` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -670,7 +671,6 @@ CREATE TABLE `lorem` (
   `locked` bit(1) DEFAULT NULL,
   `publish_date` datetime DEFAULT NULL,
   `ticker` varchar(255) DEFAULT NULL,
-  `title` varchar(255) DEFAULT NULL,
   `author` int(11) NOT NULL,
   `fixup_task` int(11) NOT NULL,
   PRIMARY KEY (`id`),
@@ -687,7 +687,7 @@ CREATE TABLE `lorem` (
 
 LOCK TABLES `lorem` WRITE;
 /*!40000 ALTER TABLE `lorem` DISABLE KEYS */;
-INSERT INTO `lorem` VALUES (1845,0,'test','https://i.redd.it/ixy3lhau0fn01.jpg','\0','2019-02-04 12:00:00','AB01-020419','TEST',1733,1835),(1846,0,'test','https://i.pinimg.com/236x/1b/d0/c8/1bd0c87460c828300c26c2b4ceeea6e4--animal-jam-doge.jpg','','2019-01-03 12:00:00','AB02-010319','TEST',1733,1835),(1847,0,'test','https://i.kym-cdn.com/photos/images/newsfeed/000/581/069/626.jpg','','2018-01-03 12:00:00','AB03-030118','TEST',1734,1835),(1848,0,'test','https://i.kym-cdn.com/photos/images/newsfeed/000/820/485/18c.png','','2018-01-03 12:00:00','AB04-030118','TEST',1734,1835);
+INSERT INTO `lorem` VALUES (1494,0,'test','test','\0','2018-10-10 12:00:00','TEMP',1382,1484);
 /*!40000 ALTER TABLE `lorem` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -706,7 +706,7 @@ CREATE TABLE `message` (
   `priority` varchar(255) DEFAULT NULL,
   `sender_alias` varchar(255) DEFAULT NULL,
   `subject` varchar(255) DEFAULT NULL,
-  `sender` int(11) NOT NULL,
+  `sender` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -746,7 +746,7 @@ CREATE TABLE `message_box` (
 
 LOCK TABLES `message_box` WRITE;
 /*!40000 ALTER TABLE `message_box` DISABLE KEYS */;
-INSERT INTO `message_box` VALUES (1743,0,'ROOT','Mail',1733,NULL),(1744,0,'INBOX','Inbox',1733,1743),(1745,0,'OUTBOX','Outbox',1733,1743),(1746,0,'TRASHBOX','Trashbox',1733,1743),(1747,0,'SPAMBOX','Spambox',1733,1743),(1748,0,'ROOT','Mail',1734,NULL),(1749,0,'INBOX','Inbox',1734,1748),(1750,0,'OUTBOX','Outbox',1734,1748),(1751,0,'TRASHBOX','Trashbox',1734,1748),(1752,0,'SPAMBOX','Spambox',1734,1748),(1753,0,'ROOT','Mail',1741,NULL),(1754,0,'INBOX','Inbox',1741,1753),(1755,0,'OUTBOX','Outbox',1741,1753),(1756,0,'TRASHBOX','Trashbox',1741,1753),(1757,0,'SPAMBOX','Spambox',1741,1753),(1758,0,'ROOT','Mail',1742,NULL),(1759,0,'INBOX','Inbox',1742,1758),(1760,0,'OUTBOX','Outbox',1742,1758),(1761,0,'TRASHBOX','Trashbox',1742,1758),(1762,0,'SPAMBOX','Spambox',1742,1758),(1763,0,'ROOT','Mail',1735,NULL),(1764,0,'INBOX','Inbox',1735,1763),(1765,0,'OUTBOX','Outbox',1735,1763),(1766,0,'TRASHBOX','Trashbox',1735,1763),(1767,0,'SPAMBOX','Spambox',1735,1763),(1768,0,'INBOX','Inbox',1736,NULL),(1769,0,'OUTBOX','Outbox',1736,NULL),(1770,0,'TRASHBOX','Trashbox',1736,NULL),(1771,0,'SPAMBOX','Spambox',1736,NULL),(1772,0,'INBOX','Inbox',1737,NULL),(1773,0,'OUTBOX','Outbox',1737,NULL),(1774,0,'TRASHBOX','Trashbox',1737,NULL),(1775,0,'SPAMBOX','Spambox',1737,NULL),(1776,0,'INBOX','Inbox',1738,NULL),(1777,0,'OUTBOX','Outbox',1738,NULL),(1778,0,'TRASHBOX','Trashbox',1738,NULL),(1779,0,'SPAMBOX','Spambox',1738,NULL),(1780,0,'INBOX','Inbox',1739,NULL),(1781,0,'OUTBOX','Outbox',1739,NULL),(1782,0,'TRASHBOX','Trashbox',1739,NULL),(1783,0,'SPAMBOX','Spambox',1739,NULL),(1784,0,'INBOX','Inbox',1740,NULL),(1785,0,'OUTBOX','Outbox',1740,NULL),(1786,0,'TRASHBOX','Trashbox',1740,NULL),(1787,0,'SPAMBOX','Spambox',1740,NULL);
+INSERT INTO `message_box` VALUES (1392,0,'ROOT','Mail',1382,NULL),(1393,0,'INBOX','Inbox',1382,1392),(1394,0,'OUTBOX','Outbox',1382,1392),(1395,0,'TRASHBOX','Trashbox',1382,1392),(1396,0,'SPAMBOX','Spambox',1382,1392),(1397,0,'ROOT','Mail',1383,NULL),(1398,0,'INBOX','Inbox',1383,1397),(1399,0,'OUTBOX','Outbox',1383,1397),(1400,0,'TRASHBOX','Trashbox',1383,1397),(1401,0,'SPAMBOX','Spambox',1383,1397),(1402,0,'ROOT','Mail',1390,NULL),(1403,0,'INBOX','Inbox',1390,1402),(1404,0,'OUTBOX','Outbox',1390,1402),(1405,0,'TRASHBOX','Trashbox',1390,1402),(1406,0,'SPAMBOX','Spambox',1390,1402),(1407,0,'ROOT','Mail',1391,NULL),(1408,0,'INBOX','Inbox',1391,1407),(1409,0,'OUTBOX','Outbox',1391,1407),(1410,0,'TRASHBOX','Trashbox',1391,1407),(1411,0,'SPAMBOX','Spambox',1391,1407),(1412,0,'ROOT','Mail',1384,NULL),(1413,0,'INBOX','Inbox',1384,1412),(1414,0,'OUTBOX','Outbox',1384,1412),(1415,0,'TRASHBOX','Trashbox',1384,1412),(1416,0,'SPAMBOX','Spambox',1384,1412),(1417,0,'INBOX','Inbox',1385,NULL),(1418,0,'OUTBOX','Outbox',1385,NULL),(1419,0,'TRASHBOX','Trashbox',1385,NULL),(1420,0,'SPAMBOX','Spambox',1385,NULL),(1421,0,'INBOX','Inbox',1386,NULL),(1422,0,'OUTBOX','Outbox',1386,NULL),(1423,0,'TRASHBOX','Trashbox',1386,NULL),(1424,0,'SPAMBOX','Spambox',1386,NULL),(1425,0,'INBOX','Inbox',1387,NULL),(1426,0,'OUTBOX','Outbox',1387,NULL),(1427,0,'TRASHBOX','Trashbox',1387,NULL),(1428,0,'SPAMBOX','Spambox',1387,NULL),(1429,0,'INBOX','Inbox',1388,NULL),(1430,0,'OUTBOX','Outbox',1388,NULL),(1431,0,'TRASHBOX','Trashbox',1388,NULL),(1432,0,'SPAMBOX','Spambox',1388,NULL),(1433,0,'INBOX','Inbox',1389,NULL),(1434,0,'OUTBOX','Outbox',1389,NULL),(1435,0,'TRASHBOX','Trashbox',1389,NULL),(1436,0,'SPAMBOX','Spambox',1389,NULL);
 /*!40000 ALTER TABLE `message_box` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -982,7 +982,7 @@ CREATE TABLE `referee` (
 
 LOCK TABLES `referee` WRITE;
 /*!40000 ALTER TABLE `referee` DISABLE KEYS */;
-INSERT INTO `referee` VALUES (1737,0,'Calle de referees, 1, 3¬∫D','referee1@gmail.com','\0','Ram√≥n','David','+34 655555555','http:\\\\www.photo.com/test5','P√©rez',1726),(1738,0,'Calle de referees, 2, 3¬∫D','referee2@gmail.com','\0','Maria','Julia','+34 666666666','http:\\\\www.photo.com/test6','Reverte',1727);
+INSERT INTO `referee` VALUES (1386,0,'Calle de referees, 1, 3¬∫D','referee1@gmail.com','\0','Ram√≥n','David','+34 655555555','http:\\\\www.photo.com/test5','P√©rez',1375),(1387,0,'Calle de referees, 2, 3¬∫D','referee2@gmail.com','\0','Maria','Julia','+34 666666666','http:\\\\www.photo.com/test6','Reverte',1376);
 /*!40000 ALTER TABLE `referee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1090,7 +1090,7 @@ CREATE TABLE `section` (
 
 LOCK TABLES `section` WRITE;
 /*!40000 ALTER TABLE `section` DISABLE KEYS */;
-INSERT INTO `section` VALUES (1793,0,'Desmontar y evaluar la bicicleta','¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0\0w\0\0\0\0x',0,'Identificar el problema'),(1794,0,'Solucionar problemas b√°sicos de bicicletas','¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0\"http:\\\\fotobicis.com/arreglar2.pngt\0\"http:\\\\fotobicis.com/arreglar3.pngx',0,'Resolver el problema');
+INSERT INTO `section` VALUES (1442,0,'Desmontar y evaluar la bicicleta','¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0\0w\0\0\0\0x',0,'Identificar el problema'),(1443,0,'Solucionar problemas b√°sicos de bicicletas','¨Ì\0sr\0java.util.ArrayListxÅ“ô«aù\0I\0sizexp\0\0\0w\0\0\0t\0\"http:\\\\fotobicis.com/arreglar2.pngt\0\"http:\\\\fotobicis.com/arreglar3.pngx',0,'Resolver el problema');
 /*!40000 ALTER TABLE `section` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1121,7 +1121,7 @@ CREATE TABLE `site_configuration` (
 
 LOCK TABLES `site_configuration` WRITE;
 /*!40000 ALTER TABLE `site_configuration` DISABLE KEYS */;
-INSERT INTO `site_configuration` VALUES (1732,0,'http://www.sample-banner.com/banner.png',34,10,3600,'Acme Handy Worker',0.2,'');
+INSERT INTO `site_configuration` VALUES (1381,0,' https://tinyurl.com/acme-handy-worker-logo',34,10,3600,'Acme Handy Worker',0.2,'Welcome my guy');
 /*!40000 ALTER TABLE `site_configuration` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1146,7 +1146,7 @@ CREATE TABLE `site_configuration_bad_words` (
 
 LOCK TABLES `site_configuration_bad_words` WRITE;
 /*!40000 ALTER TABLE `site_configuration_bad_words` DISABLE KEYS */;
-INSERT INTO `site_configuration_bad_words` VALUES (1732,'chapuza');
+INSERT INTO `site_configuration_bad_words` VALUES (1381,'chapuza');
 /*!40000 ALTER TABLE `site_configuration_bad_words` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1171,7 +1171,7 @@ CREATE TABLE `site_configuration_good_words` (
 
 LOCK TABLES `site_configuration_good_words` WRITE;
 /*!40000 ALTER TABLE `site_configuration_good_words` DISABLE KEYS */;
-INSERT INTO `site_configuration_good_words` VALUES (1732,'nuevo');
+INSERT INTO `site_configuration_good_words` VALUES (1381,'nuevo');
 /*!40000 ALTER TABLE `site_configuration_good_words` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1196,7 +1196,7 @@ CREATE TABLE `site_configuration_spam_words` (
 
 LOCK TABLES `site_configuration_spam_words` WRITE;
 /*!40000 ALTER TABLE `site_configuration_spam_words` DISABLE KEYS */;
-INSERT INTO `site_configuration_spam_words` VALUES (1732,'sex'),(1732,'viagra'),(1732,'cialis'),(1732,'one million'),(1732,'you\'ve been selected'),(1732,'nigeria'),(1732,'sexo'),(1732,'un millon'),(1732,'ha sido seleccionado');
+INSERT INTO `site_configuration_spam_words` VALUES (1381,'sex'),(1381,'viagra'),(1381,'cialis'),(1381,'one million'),(1381,'you\'ve been selected'),(1381,'nigeria'),(1381,'sexo'),(1381,'un millon'),(1381,'ha sido seleccionado');
 /*!40000 ALTER TABLE `site_configuration_spam_words` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1224,7 +1224,7 @@ CREATE TABLE `social_profile` (
 
 LOCK TABLES `social_profile` WRITE;
 /*!40000 ALTER TABLE `social_profile` DISABLE KEYS */;
-INSERT INTO `social_profile` VALUES (1788,0,'manitas1','linkedIn','http://www.linkedin.com/manitas1',1735),(1789,0,'manitas1','facebook','http://www.facebook.com/manitas1',1735);
+INSERT INTO `social_profile` VALUES (1437,0,'manitas1','linkedIn','http://www.linkedin.com/manitas1',1384),(1438,0,'manitas1','facebook','http://www.facebook.com/manitas1',1384);
 /*!40000 ALTER TABLE `social_profile` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1259,7 +1259,7 @@ CREATE TABLE `sponsor` (
 
 LOCK TABLES `sponsor` WRITE;
 /*!40000 ALTER TABLE `sponsor` DISABLE KEYS */;
-INSERT INTO `sponsor` VALUES (1739,0,'Calle de sponsors, 1, 3¬∫D','sponsor1@gmail.com','\0','','Juli√°n','+34 677777777','http:\\\\www.photo.com/test7','S√°nchez',1728),(1740,0,'Calle de sponsors, 2, 3¬∫D','sponsor1@gmail.com','\0','','Roberta','+34 688888888','http:\\\\www.photo.com/test8','Ram√≠rez',1729);
+INSERT INTO `sponsor` VALUES (1388,0,'Calle de sponsors, 1, 3¬∫D','sponsor1@gmail.com','\0','','Juli√°n','+34 677777777','http:\\\\www.photo.com/test7','S√°nchez',1377),(1389,0,'Calle de sponsors, 2, 3¬∫D','sponsor1@gmail.com','\0','','Roberta','+34 688888888','http:\\\\www.photo.com/test8','Ram√≠rez',1378);
 /*!40000 ALTER TABLE `sponsor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1291,7 +1291,7 @@ CREATE TABLE `sponsorship` (
 
 LOCK TABLES `sponsorship` WRITE;
 /*!40000 ALTER TABLE `sponsorship` DISABLE KEYS */;
-INSERT INTO `sponsorship` VALUES (1832,0,'https://www.youtube.com/','https://www.youtube.com/',1739,1802),(1833,0,'https://www.youtube.com/','https://www.youtube.com/',1740,1803);
+INSERT INTO `sponsorship` VALUES (1481,0,'https://www.youtube.com/','https://www.youtube.com/',1388,1451),(1482,0,'https://www.youtube.com/','https://www.youtube.com/',1389,1452);
 /*!40000 ALTER TABLE `sponsorship` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1319,7 +1319,7 @@ CREATE TABLE `tutorial` (
 
 LOCK TABLES `tutorial` WRITE;
 /*!40000 ALTER TABLE `tutorial` DISABLE KEYS */;
-INSERT INTO `tutorial` VALUES (1792,0,'tutorial para identificar y resolver problemas con bicis',NULL,'tutorial para reparar bicis',1735);
+INSERT INTO `tutorial` VALUES (1441,0,'tutorial para identificar y resolver problemas con bicis',NULL,'tutorial para reparar bicis',1384);
 /*!40000 ALTER TABLE `tutorial` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1344,7 +1344,7 @@ CREATE TABLE `tutorial_photos` (
 
 LOCK TABLES `tutorial_photos` WRITE;
 /*!40000 ALTER TABLE `tutorial_photos` DISABLE KEYS */;
-INSERT INTO `tutorial_photos` VALUES (1792,'http:\\\\fotobicis.com/arreglar.png');
+INSERT INTO `tutorial_photos` VALUES (1441,'http:\\\\fotobicis.com/arreglar.png');
 /*!40000 ALTER TABLE `tutorial_photos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1371,7 +1371,7 @@ CREATE TABLE `tutorial_sections` (
 
 LOCK TABLES `tutorial_sections` WRITE;
 /*!40000 ALTER TABLE `tutorial_sections` DISABLE KEYS */;
-INSERT INTO `tutorial_sections` VALUES (1792,1793),(1792,1794);
+INSERT INTO `tutorial_sections` VALUES (1441,1442),(1441,1443);
 /*!40000 ALTER TABLE `tutorial_sections` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1424,7 +1424,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1719,0,'21232f297a57a5a743894a0e4a801fc3','admin'),(1720,0,'91ec1f9324753048c0096d036a694f86','customer'),(1721,0,'1b3231655cebb7a1f783eddf27d254ca','super'),(1722,0,'325a2cc052914ceeb8c19016c091d2ac','customer1'),(1723,0,'325a2cc052914ceeb8c19016c091d2ac','customer2'),(1724,0,'325a2cc052914ceeb8c19016c091d2ac','handyWorker1'),(1725,0,'325a2cc052914ceeb8c19016c091d2ac','handyWorker2'),(1726,0,'325a2cc052914ceeb8c19016c091d2ac','referee1'),(1727,0,'325a2cc052914ceeb8c19016c091d2ac','referee2'),(1728,0,'325a2cc052914ceeb8c19016c091d2ac','sponsor1'),(1729,0,'325a2cc052914ceeb8c19016c091d2ac','sponsor2'),(1730,0,'325a2cc052914ceeb8c19016c091d2ac','admin1'),(1731,0,'325a2cc052914ceeb8c19016c091d2ac','admin2');
+INSERT INTO `user_account` VALUES (1368,0,'21232f297a57a5a743894a0e4a801fc3','admin'),(1369,0,'91ec1f9324753048c0096d036a694f86','customer'),(1370,0,'1b3231655cebb7a1f783eddf27d254ca','super'),(1371,0,'325a2cc052914ceeb8c19016c091d2ac','customer1'),(1372,0,'325a2cc052914ceeb8c19016c091d2ac','customer2'),(1373,0,'325a2cc052914ceeb8c19016c091d2ac','handyWorker1'),(1374,0,'325a2cc052914ceeb8c19016c091d2ac','handyWorker2'),(1375,0,'325a2cc052914ceeb8c19016c091d2ac','referee1'),(1376,0,'325a2cc052914ceeb8c19016c091d2ac','referee2'),(1377,0,'325a2cc052914ceeb8c19016c091d2ac','sponsor1'),(1378,0,'325a2cc052914ceeb8c19016c091d2ac','sponsor2'),(1379,0,'325a2cc052914ceeb8c19016c091d2ac','admin1'),(1380,0,'325a2cc052914ceeb8c19016c091d2ac','admin2');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1449,7 +1449,7 @@ CREATE TABLE `user_account_authorities` (
 
 LOCK TABLES `user_account_authorities` WRITE;
 /*!40000 ALTER TABLE `user_account_authorities` DISABLE KEYS */;
-INSERT INTO `user_account_authorities` VALUES (1719,'ADMIN'),(1720,'CUSTOMER'),(1721,'ADMIN'),(1721,'CUSTOMER'),(1722,'CUSTOMER'),(1723,'CUSTOMER'),(1724,'HANDYWORKER'),(1725,'HANDYWORKER'),(1726,'REFEREE'),(1727,'REFEREE'),(1728,'SPONSOR'),(1729,'SPONSOR'),(1730,'ADMIN'),(1731,'ADMIN');
+INSERT INTO `user_account_authorities` VALUES (1368,'ADMIN'),(1369,'CUSTOMER'),(1370,'ADMIN'),(1370,'CUSTOMER'),(1371,'CUSTOMER'),(1372,'CUSTOMER'),(1373,'HANDYWORKER'),(1374,'HANDYWORKER'),(1375,'REFEREE'),(1376,'REFEREE'),(1377,'SPONSOR'),(1378,'SPONSOR'),(1379,'ADMIN'),(1380,'ADMIN');
 /*!40000 ALTER TABLE `user_account_authorities` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1476,7 +1476,7 @@ CREATE TABLE `warranty` (
 
 LOCK TABLES `warranty` WRITE;
 /*!40000 ALTER TABLE `warranty` DISABLE KEYS */;
-INSERT INTO `warranty` VALUES (1821,0,'\0','Default terms bro','Default'),(1822,0,'\0','prove that it was a theft','Thef'),(1823,0,'\0','prove that it was the handyworkers fault','Total destruction');
+INSERT INTO `warranty` VALUES (1470,0,'\0','Default terms bro','Default'),(1471,0,'\0','prove that it was a theft','Thef'),(1472,0,'\0','prove that it was the handyworkers fault','Total destruction');
 /*!40000 ALTER TABLE `warranty` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1503,7 +1503,7 @@ CREATE TABLE `warranty_laws` (
 
 LOCK TABLES `warranty_laws` WRITE;
 /*!40000 ALTER TABLE `warranty_laws` DISABLE KEYS */;
-INSERT INTO `warranty_laws` VALUES (1821,1824),(1821,1825),(1822,1824),(1822,1825),(1822,1826),(1823,1827),(1823,1828);
+INSERT INTO `warranty_laws` VALUES (1470,1473),(1470,1474),(1471,1473),(1471,1474),(1471,1475),(1472,1476),(1472,1477);
 /*!40000 ALTER TABLE `warranty_laws` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1535,9 +1535,13 @@ CREATE TABLE `work_plan_phase` (
 
 LOCK TABLES `work_plan_phase` WRITE;
 /*!40000 ALTER TABLE `work_plan_phase` DISABLE KEYS */;
-INSERT INTO `work_plan_phase` VALUES (1795,1,'Desmontar la bici y evaluarla.','2018-10-17 00:00:00',1,'2018-10-16 00:00:00','Desmontar y evaluar',1835),(1796,1,'Reparar el problema o en su defecto sustituir las piezas defectuosas.','2018-10-19 00:00:00',2,'2018-10-18 00:00:00','Solucionar o recambiar',1835),(1797,1,'Ponemo uno nuevo','2018-10-17 00:00:00',1,'2018-10-16 00:00:00','Arreglar el techo',1836);
+INSERT INTO `work_plan_phase` VALUES (1444,1,'Desmontar la bici y evaluarla.','2018-10-17 00:00:00',1,'2018-10-16 00:00:00','Desmontar y evaluar',1484),(1445,1,'Reparar el problema o en su defecto sustituir las piezas defectuosas.','2018-10-19 00:00:00',2,'2018-10-18 00:00:00','Solucionar o recambiar',1484),(1446,1,'Ponemo uno nuevo','2018-10-17 00:00:00',1,'2018-10-16 00:00:00','Arreglar el techo',1485);
 /*!40000 ALTER TABLE `work_plan_phase` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping events for database 'acme-handy-worker'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -1548,4 +1552,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-02-04 18:31:27
+-- Dump completed on 2019-02-13  6:01:26
